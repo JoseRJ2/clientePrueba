@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <Rutas />
+      <p>prueba de muestreo</p>
     </div>
   );
 }
