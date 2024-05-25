@@ -1,0 +1,86 @@
+/* Contactos.css */
+
+/* Container */
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Header */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #343a40;
+}
+
+/* Table */
+.table {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #343a40;
+    color: white;
+}
+
+.table th,
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table .btn-info,
+.table .btn-danger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.table .btn-info .mr-2,
+.table .btn-danger .mr-2 {
+    margin-right: 4px;
+}
+
+/* Modals */
+.modal-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.modal-header .modal-title {
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group .form-control {
+    border-radius: 0.25rem;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-footer .btn-primary {
+    margin-right: 10px;
+}
+
+.modal-footer .btn-secondary {
+    margin-left: 10px;
+}
