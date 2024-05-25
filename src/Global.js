@@ -1,5 +1,5 @@
 var Global = {
-    url: 'https://pruebaestancias.onrender.com/api'
+    url: 'https://servidorprueba-vkol.onrender.com/api'
 }
 
 export default Global;
